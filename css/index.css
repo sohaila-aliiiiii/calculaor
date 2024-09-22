@@ -1,0 +1,30 @@
+.calc
+{
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #30475e;
+}
+.calc_row
+{
+    margin: 5px auto;
+}
+.calc_row button
+{
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+}
+.calc_row button:hover
+{
+    cursor: pointer;
+}
+.input
+{
+    width: 300px;
+    height:100%;
+    background-color: white;
+    overflow-x: scroll;
+}
